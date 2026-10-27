@@ -1,6 +1,8 @@
 name: Unsigned iOS IPA
 on:
   workflow_dispatch:
+  push:
+    branches: [codex/ios-421-build]
 permissions:
   contents: read
 jobs:
